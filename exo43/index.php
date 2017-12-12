@@ -5,11 +5,9 @@
 	<title>Document</title>
 </head>
 <body>
+	<a href="index.php?nom=Nemare&prenom=Jean">Dis-moi bonjour !</a>
 	<?php
-
-	$nom = 'Thomas';
-	echo $nom;
-
+		echo $_GET['prenom'] . ' ' . $_GET['nom'];
 	?>
 </body>
 </html>
