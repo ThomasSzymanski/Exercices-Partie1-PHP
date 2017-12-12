@@ -6,10 +6,9 @@
 </head>
 <body>
 	<?php
+		$months = array('02' => 'Aisne','59' => 'Nord','60' => 'Oise','62' => 'Pas-de-Calais','80' => 'Somme',);
 
-	$nom = 'Thomas';
-	echo $nom;
-
+		echo $months['59'];
 	?>
 </body>
 </html>
