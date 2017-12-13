@@ -5,12 +5,8 @@
 	<title>Document</title>
 </head>
 <body>
-	<?php
-	$int = NULL;
-	settype($int, 'integer');
-	echo $int;
-	$int = 69;
-	echo $int;
-?>
+	<?php 
+		echo $_GET['prenom'] . ' ' . $_GET['nom'];	
+	?>  
 </body>
 </html>

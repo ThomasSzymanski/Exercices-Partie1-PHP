@@ -6,11 +6,11 @@
 </head>
 <body>
 	<?php
-	$nom    = 'Szymanski';
-	$prenom = 'Thomas';
-	$age    = 21;
+	$surname = 'Szymanski';
+	$name    = 'Thomas';
+	$age     = 21;
 
-	echo 'Bonjour' . ' ' . $nom . ' ' . $prenom . ', ' . 'tu as' . ' ' . $age . ' ' . 'ans.';
+	echo 'Bonjour ' . $surname . ' ' . $name . ', tu as '  . $age . ' ans.';
 ?>
 </body>
 </html>

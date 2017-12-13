@@ -6,8 +6,8 @@
 </head>
 <body>
 	<?php
-	$nom = 'Szymanski';
-	echo 'Bonjour' . ' ' . $nom . ', comment vas-tu ?';
+	$name = 'Szymanski';
+	echo 'Bonjour ' . $name . ', comment vas-tu ?';
 ?>
 </body>
 </html>
