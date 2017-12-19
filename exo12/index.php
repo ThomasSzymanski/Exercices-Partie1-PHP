@@ -1,7 +1,7 @@
 <?php
-	$age = 11;
+	$magnitude = 11;
 
-	switch($age){
+	switch($magnitude){
 		case 1:
 			echo 'Micro-séisme impossible à ressentir.';
 		break;
