@@ -1,3 +1,60 @@
 body{
-    background-color: red;
+    background-color: #34393E;
+    text-align: center;
+    font-family: "Permanent Marker"
+}
+.globalTable{
+    color:#FF5B2B;  
+    border: solid 10px #FF5B2B;
+    border-collapse: collapse; 
+    margin-top: 40px;
+}
+.titleTable{
+    margin-top:25px;
+    font-size: 40px;   
+    color: white;
+}
+th{ 
+    font-family:"Shadows Into Light Two";
+    text-align:center;
+    font-size: 25px;
+}
+td{
+    font-family:"Shadows Into Light Two";   
+    font-size: 40px;
+    font-weight: bold;
+}
+td:hover{
+     color: black;
+background: url("mickael.png") no-repeat;
+    background-position: center;
+transition-property: background;
+transition-duration: 0.5s;
+transition-timing-fonction: radial;
+}
+.selectDate{
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: "Risque";
+}
+td{
+    border: solid 3px #FF5B2B;
+    height: 110px;
+    width: 160px;
+}
+.videEnd{
+    background: url("mickael.png") no-repeat;
+    background-position: center;
+    
+}
+.videEnd:hover{
+    color: black;
+background-color:#ff8c00; /* pour les vieux navigateurs */
+background-color: #FF5B2B;
+transition-property: background-color;
+transition-duration: 0.5s;
+transition-timing-fonction: linear;
+}
+.btn-primary{
+    font-size: 35px;
 }
