@@ -61,7 +61,7 @@
             ?>
             </div>
         </caption>
-        <table class="globalTable  col-lg-12">
+        <table class="globalTable col-lg-12">
             <tr>
               <th>Lundi</th>
               <th>Mardi</th>

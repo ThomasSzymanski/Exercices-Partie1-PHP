@@ -30,7 +30,7 @@ background: url("mickael.png") no-repeat;
     background-position: center;
 transition-property: background;
 transition-duration: 0.5s;
-transition-timing-fonction: radial;
+transition-timing-fonction: linear;
 }
 .selectDate{
     margin-top: 10px;
