@@ -1,4 +1,5 @@
 <?php
+//Tableau contenant la liste des pays
 $countries = ['Afghanistan','Albanie','Antarctique','Algérie','Samoa Américaines','Andorre','Angola','Antigua-et-Barbuda','Azerbaïdjan','Argentine','Australie',
     'Autriche','Bahamas','Bahreïn','Bangladesh','Arménie','Barbade','Belgique','Bermudes','Bhoutan','Bolivie','Bosnie-Herzégovine','Botswana','Île Bouvet','Brésil',
     'Belize','Territoire Britannique de l\'Océan Indien','Îles Salomon','Îles Vierges Britanniques','Brunéi Darussalam','Bulgarie','Myanmar','Burundi','Bélarus',
@@ -23,4 +24,3 @@ $countries = ['Afghanistan','Albanie','Antarctique','Algérie','Samoa Américain
     'Togo','Tokelau','Tonga','Trinité-et-Tobago','Émirats Arabes Unis','Tunisie','Turquie','Turkménistan','Îles Turks et Caïques','Tuvalu','Ouganda',
     'Ukraine','L\'ex-République Yougoslave de Macédoine','Égypte','Royaume-Uni','Île de Man','République-Unie de Tanzanie','États-Unis',
     'Îles Vierges des États-Unis','Burkina Faso','Uruguay','Ouzbékistan','Venezuela','Wallis et Futuna','Samoa','Yémen','Serbie-et-Monténégro','Zambie'];
-?>

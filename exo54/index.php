@@ -25,9 +25,5 @@
 			echo $_POST['sexe'] . ' ' . $_POST['prenom'] . ' ' . $_POST['nom'] . ' enchanté !';
 		}
 	?>
-
-
-		
-
 </body>
 </html>

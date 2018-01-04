@@ -1,0 +1,214 @@
+body{
+    background-color : #2C3E50;
+}
+h1{
+    text-align: center;
+    margin-bottom : 80px;
+    margin-top : 50px;
+    font-family: 'Questrial';
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+.blocForm{
+    background-color: #C0392B;
+    border-radius: 8px;
+}
+/* Classe Bootstrap modifiée permettant de gérer la mise en forme des input text */
+.form-control{
+    background-color : #2c3e50;
+    border: transparent 2px;
+    border-radius : 0px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Dosis';
+    font-size: 18px;
+}
+.btn-primary{
+    background-color : #2c3e50;
+    border: transparent 2px;
+}
+.blocInputNames{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+/* Classe Bootstrap pour gérer le "label" des input text */
+.input-group-addon{
+    background-color: #2c3e50;
+    border: transparent 2px;
+    color: #c0392b;
+    font-weight: bold;
+    font-family: 'Dosis';
+    font-size: 18px;
+}
+.input-group{
+    z-index:0;
+}
+.selectForm{
+    height: 46px;
+    padding: 10px 16px;
+    margin-top: 30px;
+}
+/* Permet d'avoir une apparence plutôt similaire selon les navigateurs et faire disparaître le petit bouton à droite des select */
+select{
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.selectBirthCountry{
+    border-radius: 0px 4px 4px 0px;
+}
+.inputRadiusRight{
+    border-radius: 0px 4px 4px 0px;
+}
+.removeRadius span{
+    border-radius: 0px;
+}
+.selectRadiusAll{
+    border-radius: 4px;
+}
+.inputMarginTop{
+    margin-top: 45px;
+}
+.textareaForm{
+    
+}
+.labelTextarea{
+    background-color: #2c3e50;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Dosis';
+    font-weight: bold;
+    padding-top: 9px;
+    font-size: 19px;
+}
+
+/* Bouton d'envoi du formulaire */
+
+.buttonSend { 
+  color: white; 
+  font-family: 'Dosis';
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #C0392B; 
+  border: solid 4px #2C3E50;
+} 
+ 
+.buttonSend:hover, 
+.buttonSend:focus, 
+.buttonSend:active, 
+.buttonSend.active, 
+.open .dropdown-toggle.buttonSend { 
+  color: #C0392B; 
+  background-color: #2C3E50; 
+  border-color: #2C3E50; 
+} 
+ 
+.buttonSend:active, 
+.buttonSend.active, 
+.open .dropdown-toggle.buttonSend { 
+  background-image: none; 
+} 
+ 
+.buttonSend.disabled, 
+.buttonSend[disabled], 
+fieldset[disabled] .buttonSend, 
+.buttonSend.disabled:hover, 
+.buttonSend[disabled]:hover, 
+fieldset[disabled] .buttonSend:hover, 
+.buttonSend.disabled:focus, 
+.buttonSend[disabled]:focus, 
+fieldset[disabled] .buttonSend:focus, 
+.buttonSend.disabled:active, 
+.buttonSend[disabled]:active, 
+fieldset[disabled] .buttonSend:active, 
+.buttonSend.disabled.active, 
+.buttonSend[disabled].active, 
+fieldset[disabled] .buttonSend.active { 
+  background-color: #C0392B; 
+  border-color: #2C3E50; 
+} 
+ 
+.buttonSend .badge { 
+  color: #C0392B; 
+  background-color: #ffffff; 
+}
+.positionButton{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Gestion du message alert en cas d'erreurs de saisies */
+
+.errorText{
+    text-align: center;
+    font-family: 'Questrial';
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.errorTextMargin{
+    margin-top: 15px;
+}
+
+
+/* Mise en page de la page avec le récap' des infos utilisateurs */
+
+.thanksUser{
+    text-align: center;
+    color: white;
+    font-family: 'Questrial';
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;    
+}
+.recapInfos{
+    text-align: center;
+    color: white;
+    font-family: 'Questrial';
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+.infosUsers{
+    text-align: center;
+    color: white;
+    font-family: 'Questrial';
+    font-size: 22px;
+}
+.textareaQuestion{
+    text-align: center;
+    color: white;
+    font-family: 'Questrial';
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.infosTextareaUser{
+    background-color: #2C3E50;
+    border-radius: 4px;
+    color: #C0392B;
+    font-family: 'Dosis';
+    font-size: 16px;
+    font-weight: bold;
+    word-wrap:break-word;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+hr{
+    margin-top: 60px;
+    border-color: #2C3E50;
+}
+.typeInfosUser{
+    font-style: italic;
+    color: #2C3E50;
+    font-weight: bold;
+}
+p a:hover{
+    color: #2C3E50;
+    text-decoration: none;
+}

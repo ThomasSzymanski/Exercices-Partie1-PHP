@@ -25,12 +25,12 @@ td{
     font-weight: bold;
 }
 td:hover{
-     color: black;
-background: url("mickael.png") no-repeat;
+    color: black;
+    background: url("mickael.png") no-repeat;
     background-position: center;
-transition-property: background;
-transition-duration: 0.5s;
-transition-timing-fonction: linear;
+    transition-property: background;
+    transition-duration: 0.5s;
+    transition-timing-fonction: linear;
 }
 .selectDate{
     margin-top: 10px;
@@ -49,11 +49,11 @@ td{
 }
 .videEnd:hover{
     color: black;
-background-color:#ff8c00; /* pour les vieux navigateurs */
-background-color: #FF5B2B;
-transition-property: background-color;
-transition-duration: 0.5s;
-transition-timing-fonction: linear;
+    background-color:#ff8c00; /* pour les vieux navigateurs */
+    background-color: #FF5B2B;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-fonction: linear;
 }
 .btn-primary{
     font-size: 35px;
