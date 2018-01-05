@@ -15,3 +15,6 @@
 	<a href="user.php">Voir mes coordonnées</a>
 </body>
 </html>
+<?php
+	session_write_close();
+?>

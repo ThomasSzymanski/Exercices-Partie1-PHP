@@ -479,7 +479,5 @@
 		}
         ?>
         <?php include 'affichageInfos.php' ?>  
-
-
     </body>
 </html>

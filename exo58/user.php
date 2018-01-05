@@ -13,3 +13,7 @@
 	?>
 </body>
 </html>
+<!-- Ferme provisoirement la session sans le détruire -->
+<?php
+	session_write_close();
+?>
